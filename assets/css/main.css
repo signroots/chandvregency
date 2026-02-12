@@ -10653,3 +10653,8 @@ input:focus, input:focus-visible {
     background: #1ebe5d;
     transform: scale(1.1);
 }
+.progress-wrap.active-progress {
+    opacity: 1;
+    visibility: hidden;
+    transform: translateY(0);
+}
