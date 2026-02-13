@@ -10658,3 +10658,14 @@ input:focus, input:focus-visible {
     visibility: hidden;
     transform: translateY(0);
 }
+
+/* Desktop: show both desktop images, hide mobile */
+.desktop-images { display: block; }
+.mobile-image { display: none; }
+
+/* Mobile: hide desktop images, show only mobile */
+@media (max-width: 767px) {
+    .desktop-images { display: none; }
+    .mobile-image { display: block; }
+    .mobile-image img { width: 100%; height: auto; }
+}
